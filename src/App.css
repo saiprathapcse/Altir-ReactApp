@@ -1,0 +1,173 @@
+.App {
+  margin: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.rwrds{
+  display: grid;
+}
+.img-avtr{
+  text-align: center;
+}
+.txtrwd{
+  font-size: 15px;
+}
+.txtrwd i {
+  color: darkgray;
+  border: 2px solid #efefef;
+  border-radius: 100%;
+  font-size: 1rem;
+  padding: 24px;
+  background: #efefef;
+}
+#fntsxz{
+  font-size: 15px;
+}
+.valtxt{
+  font-weight: 600;
+  font-size: large;
+}
+.rewards{
+  align-self: baseline;
+  margin-top: 10px;
+}
+.cardmain{
+  margin-top: 10px;
+}
+.card{
+      border-top: 1px solid;
+      border-radius: unset;
+      background: #f6f6f6;
+      min-height: 100vh;
+}
+.mb-3{
+  margin-bottom: 3px !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border: unset;
+  border-bottom: 2px solid blueviolet;
+  color: blueviolet;
+}
+.nav-link{
+  color: black;
+  border: unset;
+}
+.nav-tabs .nav-link{
+  border: unset;
+}
+.nav-tabs{
+  border: unset;
+  margin: 0rem 4rem;
+}
+.nav-link:hover{
+  border: unset;
+  color:blueviolet;
+}
+.pull-right{
+    float: right;
+    position: absolute;
+    right: 10rem;
+    margin-top: 1.75rem;
+    z-index: 99999;
+    color: gray;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+.pull-right i {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 100%;
+}
+.mdl{
+background: lightgray;
+padding-bottom: 10px;
+}
+.rewardform{
+  background-color: #FFFFFF;
+}
+.modal-content{
+  border: unset;
+}
+.modal-body{
+  background: lightgray;
+}
+.nrmltxt{
+  margin: 10px;
+  font-size: 14px;
+}
+.rewardform{
+  padding: 4rem;
+  margin: 1px 10px;
+}
+.algn{
+  text-align: center;
+}
+.algn button{
+  background: blueviolet;
+    border: 1px solid;
+}
+.mb-3 .form-label {
+  font-weight: 600;
+}
+.mb-4 .form-label{
+  font-weight: 600;
+}
+.feedimg-avtr{
+  display: flex;
+}
+.mainppart{
+  display: inline-grid;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.usname{
+  font-size: 13px;
+  font-weight: 400;
+}
+.time{
+  font-size: 11px;
+}
+.txtmsgblog{
+  font-weight: 500;
+  font-size: 14px;
+}
+.feedtxtrwd i {
+  color: darkgray;
+  border: 2px solid #efefef;
+  border-radius: 100%;
+  font-size: 1rem;
+  padding: 14px;
+  background: #efefef;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
